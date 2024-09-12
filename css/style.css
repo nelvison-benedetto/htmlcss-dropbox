@@ -26,13 +26,15 @@
 
 body{
     font-family: "Noto Sans","Roboto", Arial, Helvetica, sans-serif;
+    min-width: 1440px;
 }
 
-img{
-    max-width: 100%;
-}
+img{max-width: 100%;}
+p {line-height: 1.5rem;}
+
+
 .font-size{
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .d-flex{
@@ -67,6 +69,9 @@ img{
     justify-content: space-around;
 }
 
+.bg-azure{background-color: var(--azure);}
+.bg-black{background-color: var(--black);}
+
 .col-1{width: calc((100%/12)*1);}
 .col-2{width: calc((100%/12)*2);}
 .col-3{width: calc((100%/12)*3);}
@@ -81,16 +86,26 @@ img{
 .col-12{width: calc((100%/12)*12);}
 
 .w-100{width: 100%;}
+.w-80{width: 80%;}
+.w-70{width: 70%;}
 .w-60{width: 60%;}
 .w-40{width: 40%;}
 
-.gap-5{gap: 5px;}
-.gap-10{gap: 10px;}
-.gap-15{gap: 15px;}
+.gap-5{gap: 0.3rem;}
+.gap-10{gap: 0.6rem;}
+.gap-15{gap: 1rem;}
 
-.padding-10lr-14ud{
+.margin-top-test{
+    margin-top: 2rem;
+}
+
+.padding-09lr-08ud{
     padding: 0.9rem 0.8rem;
 }
+
+.padding-12centLR{ padding: 5% 20% 0% 20%;}
+
+
 
 .button{
     background-color: var(--blue-strong);
@@ -100,4 +115,18 @@ img{
 }
 .button:hover{
     opacity: 0.7;
+}
+
+.img-float-test{
+    float: right;
+    margin: 0rem -0.0rem -0.0rem 1rem;
+}
+
+#app_main{
+    .h1_main_intro{
+        font-size: 4rem;
+        line-height: 5.2rem;
+    }
+    .img_main_intro_width{width: 69%;}
+
 }
