@@ -30,11 +30,9 @@ body{
 }
 
 img{max-width: 100%;}
-p {line-height: 1.5rem;}
-
 
 .font-size{
-    font-size: 14px;
+    font-size: 13px;
 }
 
 .d-flex{
@@ -91,9 +89,9 @@ p {line-height: 1.5rem;}
 .w-60{width: 60%;}
 .w-40{width: 40%;}
 
-.gap-5{gap: 0.3rem;}
-.gap-10{gap: 0.6rem;}
-.gap-15{gap: 1rem;}
+.gap-1rem{gap: 1rem;}
+.gap-2rem{gap: 2rem;}
+.gap-3rem{gap: 3rem;}
 
 .margin-top-test{
     margin-top: 2rem;
@@ -103,7 +101,7 @@ p {line-height: 1.5rem;}
     padding: 0.9rem 0.8rem;
 }
 
-.padding-12centLR{ padding: 5% 20% 0% 20%;}
+
 
 
 
@@ -117,16 +115,19 @@ p {line-height: 1.5rem;}
     opacity: 0.7;
 }
 
-.img-float-test{
-    float: right;
-    margin: 0rem -0.0rem -0.0rem 1rem;
-}
+
+.margin-top-2rem{margin-top: 2rem;}
 
 #app_main{
-    .h1_main_intro{
+    .padding-main-intro{ padding: 5% 20% 0% 20%;}
+    .h1_intro{
         font-size: 4rem;
         line-height: 5.2rem;
     }
-    .img_main_intro_width{width: 69%;}
-
+    .img_intro_width{width: 69%;}
+    .img_intro_float{
+        float: right;
+        margin: 0rem -0.0rem -4rem 0rem;
+    }
+    .arrow_intro{font-size: 3rem;}
 }
