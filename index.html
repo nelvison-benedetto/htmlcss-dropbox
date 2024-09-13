@@ -12,7 +12,7 @@
 </head>
 <body id="debug" class="w-100 font-size">
     <header id="app_header" class="">
-        <div class="container d-flex flex-row flex-justify-between padding-09lr-08ud">
+        <div class="container d-flex flex-row flex-justify-between py-09ud-08lr">
             <div class="header_left d-flex flex-center-center gap-1rem">
                 <img src="./assets/img/logo-small.png" alt="logo" class="">
                 <span>Perchè Dropbox</span>
@@ -32,7 +32,7 @@
             <div class="container d-flex flex-column gap-2rem">
                 <h1 class="h1_intro">Tutto cio che ti serve per il lavoro, in un unico posto</h1>
                 <div class="">
-                    <img src="./assets/img/jumbo.png" alt="Proposta per il cliente" class="img_intro_float img_intro_width">
+                    <img src="./assets/img/jumbo.png" alt="Proposta per il cliente" class="img_intro_width img_intro_float">
                     <div class="d-flex flex-column gap-1rem">
                         <p>Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto. Dropbox Business è più di uno spazio di archivizione sicuro: è un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente.</p>
                         <button class="button">Inizia la tua prova gratuita</button>
@@ -43,7 +43,7 @@
             </div>
         </section>
         <section class="w-50 d-flex flex-justify-start">
-            <div class="container margin-top-6rem">
+            <div class="w-100 container margin-top-6rem">
                 <h1 class="h1_big">Trova il business che fa per te</h1>
                 <span class="radiobuttons d-flex flex-row gap-3rem margin-top-3rem margin-bottom-3rem">
                     <span class="d-flex flex-center-center gap-04rem">
@@ -57,40 +57,104 @@
                 </span>
                 <div id="your_plain">
                     <div class="container">
-                        <div class="row d-flex flex-row flex-wrap">
-                            <div class="col-4 card d-flex flex-column">
-                                <span class="d-flex flex-center-center gap-04rem padding-06remUD">
-                                    <i class="fa-solid fa-user"></i>
-                                    <span>Singolo</span>
-                                </span>
-                                <hr>
-                                <div class="padding_card_down d-flex flex-column gap-1rem">
-                                    <h1 class="h1_card">Professional</h1>
-                                    <div class="price d-flex flex-column gap-04rem">
-                                        <span><strong>&euro; 12.00</strong></span>
-                                        <span>/mese</span>
+                        <div class="row d-flex flex-row flex-wrap m--1lr">
+                            <!--//FIRST CARD -->
+                            <div class="col-4 card d-flex flex-column py-lr-1rem">
+                                <div class="border-1-blue">
+                                    <span class="d-flex flex-center-center gap-04rem py-06-ud">
+                                        <i class="fa-solid fa-user"></i>
+                                        <span>Singolo</span>
+                                    </span>
+                                    <hr class="border-1-blue">
+                                    <div class="py_card_2sect d-flex flex-column gap-1rem">
+                                        <h1 class="h1_card">Professional</h1>
+                                        <div class="price d-flex flex-column gap-04rem">
+                                            <span><strong>&euro; 12.00</strong></span>
+                                            <span>/mese</span>
+                                        </div>
+                                        <div class="d-flex flex-column gap-1rem py-tb-1">
+                                            <p><i class="fa-solid fa-user"></i> 1 utente</p>
+                                            <p><i class="fa-solid fa-folder"></i> 5 TB di spazio di archiviazione sicuro</p>
+                                            <p><i class="fa-solid fa-share-nodes"></i> Funzioni di produttività premium e condivisione file semplice e sicura</p>
+                                        </div>
+                                        <button class="button">Prova gratis per 30 giorni</button>
+                                        <span>oppure <a href="">acquista ora</a></span>
+                                        <hr class="hr_little border-1-blue">
+                                        <h3 class="py-t-1">Punti Salienti del piano</h3>
+                                        <ul class="list_cards d-flex flex-column gap-1rem">
+                                            <li><i class="fa-solid fa-check color-blue"></i> Invia file fino a 100GB con Dropbox Transfert</li>
+                                            <li><i class="fa-solid fa-check color-blue"></i> Cartelle offline su dispositivi mobili</li>
+                                        </ul>
                                     </div>
-                                    <div class="d-flex flex-column gap-04rem">
-                                        <p><i class="fa-solid fa-user"></i> 1 utente</p>
-                                        <p><i class="fa-solid fa-folder"></i> 5 TB di spazio di archiviazione sicuro</p>
-                                        <p><i class="fa-solid fa-share-nodes"></i> Funzioni di produttività premium e condivisione file semplice e sicura</p>
+                                </div>
+                            </div>
+                            
+                            <!--//SECOND CARD -->
+                            <div class="col-4 card d-flex flex-column py-lr-1rem">
+                                <div class="border-1-blue">
+                                    <span class="d-flex flex-center-center gap-04rem py-06-ud">
+                                        <i class="fa-solid fa-user"></i>
+                                        <span>Team</span>
+                                    </span>
+                                    <hr class="border-1-blue">
+                                    <div class="py_card_2sect d-flex flex-column gap-1rem">
+                                        <h1 class="h1_card">Advanced</h1>
+                                        <div class="price d-flex flex-column gap-04rem">
+                                            <span><strong>&euro; 18.00</strong></span>
+                                            <span>utente/mese</span>
+                                        </div>
+                                        <div class="d-flex flex-column gap-1rem py-tb-1">
+                                            <p><i class="fa-solid fa-user"></i> 3 o più utenti</p>
+                                            <p><i class="fa-solid fa-folder"></i> Tutto lo spazio di cui ha bisogno il tuo team</p>
+                                            <p><i class="fa-solid fa-share-nodes"></i> Sofisticate funzioni di controllo e per tenere al sicuro tutti i file del tuo team</p>
+                                        </div>
+                                        <button class="button">Prova gratis per 30 giorni</button>
+                                        <span>oppure <a href="">acquista ora</a></span>
+                                        <hr class="hr_little border-1-blue">
+                                        <h3 class="py-t-1">Punti Salienti del piano</h3>
+                                        <ul class="list_cards d-flex flex-column gap-1rem">
+                                            <li><i class="fa-solid fa-check color-blue"></i> Nessun limite di spazio per i file</li>
+                                            <li><i class="fa-solid fa-check color-blue"></i> Cartelle offline su dispositivi mobili</li>
+                                            <li><i class="fa-solid fa-check color-blue"></i> Risparmio del 50% rispetto alle iscrizioni singole</li>
+                                            <li><i class="fa-solid fa-check color-blue"></i> Possibilità di inserire nuovi membri del team</li>
+                                            <li><i class="fa-solid fa-check color-blue"></i> Gestione dei permessi in base ai ruoli</li>
+                                        </ul>
                                     </div>
-                                    <button class="button">Prova gratis per 30 giorni</button>
-                                    <span>oppure <a href="">acquista ora</a></span>
-                                    <hr>
-                                    <h3>Punti Salienti del piano</h3>
-                                    <ul class="list_cards">
-                                        <li><i class="fa-solid fa-check color-blue"></i> invia file fino a 100GB con Dropbox Transfert</li>
-                                        <li><i class="fa-solid fa-check color-blue"></i> Cartelle offline su dispositivi mobili</li>
-                                    </ul>
                                 </div>
                             </div>
 
-                            <div class="col-4"></div>
-                            <div class="col-4"></div>
-                            <div class="col-4"></div>
-                            <div class="col-4"></div>
-                            <div class="col-4"></div>
+                            <!--//THIRD CARD -->
+                            <div class="col-4 card d-flex flex-column py-lr-1rem">
+                                <div class="border-1-blue">
+                                    <span class="d-flex flex-center-center gap-04rem py-06-ud">
+                                        <i class="fa-solid fa-user"></i>
+                                        <span>Azienda</span>
+                                    </span>
+                                    <hr class="border-1-blue">
+                                    <div class="py_card_2sect d-flex flex-column gap-1rem">
+                                        <h1 class="h1_card">Enterprise</h1>
+                                        <div class="price d-flex flex-column gap-04rem">
+                                            <span><strong>Contattaci</strong></span>
+                                            <span></span>
+                                        </div>
+                                        <div class="d-flex flex-column gap-1rem py-tb-1">
+                                            <p><i class="fa-solid fa-user"></i> 10 o più utenti</p>
+                                            <p><i class="fa-solid fa-folder"></i> Soluzioni personalizzabili per la tua azienda</p>
+                                            <p><i class="fa-solid fa-share-nodes"></i> Assistenza personalizzata per aiutare gli amministratori in una gestione su larga scala</p>
+                                        </div>
+                                        <button class="button">Contattaci</button>
+                                        <span>oppure <a href="">acquista ora</a></span>
+                                        <hr class="hr_little border-1-blue">
+                                        <h3 class="py-t-1">Punti Salienti del piano</h3>
+                                        <ul class="list_cards d-flex flex-column gap-1rem">
+                                            <li><i class="fa-solid fa-check color-blue"></i> Cartelle offline su dispositivi mobili</li>
+                                            <li><i class="fa-solid fa-check color-blue"></i> Servizio di assistenza 24/h</li>
+                                            <li><i class="fa-solid fa-check color-blue"></i> Possibilità di personalizzazione totale</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
                 </div>

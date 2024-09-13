@@ -21,9 +21,9 @@
     --yellow_img: #ffd830;
 }
 
-#debug *{
+/* #debug *{
     border: 1px dashed black;
-}
+} */
 
 body{
     font-family: "Noto Sans","Roboto", Arial, Helvetica, sans-serif;
@@ -89,24 +89,29 @@ img{max-width: 100%;}
 .margin-top-6rem{margin-top: 6rem;}
 .margin-test{margin: 0 -1rem;}
 .margin-bottom-3rem{margin-bottom: 3rem;}
+.m--1lr{ margin: 0rem -1.4rem;}
 
-.padding-09lr-08ud{
+.py-09ud-08lr{
     padding: 0.9rem 0.8rem;
 }
 .padding-main-intro{ padding: 5% 20% 0% 20%;}
 .padding-main{padding: 0% 15% 0 15%;}
-.padding-06remUD{padding: 0.6rem 0rem;}
+.py-06-ud{padding: 0.6rem 0rem;}
+
+.py-tb-1{padding: 1rem 0rem 1rem 0rem;}
+.py-t-1{padding: 1rem 0 0 0;}
+.py-lr-1rem{padding: 0rem 1rem;}
+
+.border-1-blue{border: 1px solid var(--blue-strong);}
 
 .button{
     background-color: var(--blue-strong);
     color: var(--white);
+    border: none;  /* //TOGLIE UN BORDO GRIGIO CHE NON RICORDO DA COSA DERIVA!! */
     border-radius: 0rem;
     padding: 0.5rem 1rem;
 }
 .button:hover{opacity: 0.7;}
-
-
-
 
 #app_main{
     
@@ -122,9 +127,11 @@ img{max-width: 100%;}
     .arrow_intro{font-size: 3rem;}
     /* //finish intro */
     #your_plain *{
-        font-size: 11px; 
+        font-size: 11.5px; 
         .h1_card{color: var(--blue-strong); font-size: 1.04rem;}
         .list_cards{list-style-type: none;}
+        hr{background-color: var(--blue-strong);}
+
     }
     .radiobutton{border:2px solid var(--blue-strong)}
     input[type="radio"].radiobutton{
@@ -136,8 +143,10 @@ img{max-width: 100%;}
         background-color: var(--white);
     }
     .h1_big{font-size: 2.3rem;}
-    [class^="col-"]{min-height: 300px; border: 1px solid var(--gray)}
-    .padding_card_down{padding: 13% 11%;}
-    
+    [class^="col-"]{min-height: 300px; }
+    .py_card_2sect{padding: 13% 11%;}  
+    .hr_little{width: 20%;}
+
 
 }
+
