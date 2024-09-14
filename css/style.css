@@ -87,12 +87,14 @@ img{max-width: 100%;}
 .gap-04rem{gap: 0.4rem;}
 .gap-07{gap: 0.7rem;}
 .gap-1rem{gap: 1rem;}
+.gap-1_4{gap: 1.4rem;}
 .gap-2rem{gap: 2rem;}
 .gap-3rem{gap: 3rem;}
 
 .margin-top-2rem{margin-top: 2rem;}
 .margin-top-3rem{margin-top: 3rem;}
 .margin-top-4rem{margin-top: 4rem;}
+.m-t-5{margin-top: 5rem;}
 .margin-top-6rem{margin-top: 6rem;}
 .margin-test{margin: 0 -1rem;}
 .margin-bottom-3rem{margin-bottom: 3rem;}
@@ -111,9 +113,13 @@ img{max-width: 100%;}
 .py-t-1{padding: 1rem 0 0 0;}
 .py-lr-1rem{padding: 0rem 1rem;}
 .py-b-2{padding: 0 0 2rem 0;}
+.py-b-1{padding: 0 0 1rem 0;}
+
 
 .border-1-blue{border: 1px solid var(--blue-strong);}
 .border-1-gray{border: 2px solid var(--gray);}
+
+.min-h-300{min-height: 300px;background-color: #ff1c1c;}
 
 .button{
     background-color: var(--blue-strong);
@@ -159,7 +165,7 @@ img{max-width: 100%;}
         border-radius: 50%;
         background-color: var(--white);
     }
-    .h1_big{font-size: 2.3rem;}
+    .h1_big{font-size: 2.04rem;}
     /* [class^="col-"]{min-height: 300px; } */
     .py_card_2sect{padding: 13% 11%;}  
     .hr_little{width: 20%;}
@@ -167,6 +173,7 @@ img{max-width: 100%;}
     .partner_dropbox{
         padding: 1.7rem 1.2rem;
     }
+    .card_operations{ padding: 1rem 1rem; }
 
 
 
