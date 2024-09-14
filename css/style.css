@@ -20,6 +20,15 @@
     --blue3_img: #b4d0e7;
     --yellow_img: #ffd830;
 }
+.bg-img-green{background-color: var(--green_img);}
+.bg-img-blue{background-color: var(--blue_img);}
+.bg-img-brown{background-color: var(--brown_img);}
+.bg-img-red{background-color: var(--red_img);}
+.bg-img-gray{background-color: var(--gray_img);}
+.bg-img-red2{background-color: var(--red2_img);}
+.bg-img-blue2{background-color: var(--blue_img2);}
+.bg-img-azure{background-color: var(--blue3_img);}
+.bg-img-yellow{background-color: var(--yellow_img);}
 
 /* #debug *{
     border: 1px dashed black;
@@ -31,6 +40,9 @@ body{
 }
 
 img{max-width: 100%;}
+
+.min-h-300{min-height: 300px;background-color: #ff1c1c;}
+
 
 .position-relative{position: relative;}
 .position-absolute{position: absolute;}
@@ -61,7 +73,7 @@ img{max-width: 100%;}
 .bg-azure{background-color: var(--azure);}
 .bg-black{background-color: var(--black);}
 .color-blue{color: var(--blue-strong);}
-
+.c-white{color: white}
 
 .col-1{width: calc((100%/12)*1);}
 .col-2{width: calc((100%/12)*2);}
@@ -103,6 +115,7 @@ img{max-width: 100%;}
 .py-09ud-08lr{
     padding: 0.9rem 0.8rem;
 }
+.py-3{padding: 3rem;}
 .padding-main-intro{ padding: 5% 20% 0% 20%;}
 .padding-main{padding: 0% 15% 0 15%;}
 .py-06-ud{padding: 0.6rem 0rem;}
@@ -119,7 +132,6 @@ img{max-width: 100%;}
 .border-1-blue{border: 1px solid var(--blue-strong);}
 .border-1-gray{border: 2px solid var(--gray);}
 
-.min-h-300{min-height: 300px;background-color: #ff1c1c;}
 
 .button{
     background-color: var(--blue-strong);
@@ -165,7 +177,7 @@ img{max-width: 100%;}
         border-radius: 50%;
         background-color: var(--white);
     }
-    .h1_big{font-size: 2.04rem;}
+    .h1_big{font-size: 1.90rem;}
     /* [class^="col-"]{min-height: 300px; } */
     .py_card_2sect{padding: 13% 11%;}  
     .hr_little{width: 20%;}
@@ -174,8 +186,8 @@ img{max-width: 100%;}
         padding: 1.7rem 1.2rem;
     }
     .card_operations{ padding: 1rem 1rem; }
-
-
-
+    .cube{aspect-ratio:1/1;}
+    .cube img{width: 60% ;filter: invert(100%) sepia(100%) saturate(100%) hue-rotate(180deg);}
+    .cube_img_center{width: 50%;}
 }
 
