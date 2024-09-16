@@ -20,6 +20,7 @@
     --blue3_img: #b4d0e7;
     --yellow_img: #ffd830;
 }
+.bg-black{background-color: var(--black);}
 .bg-img-green{background-color: var(--green_img);}
 .bg-img-blue{background-color: var(--blue_img);}
 .bg-img-brown{background-color: var(--brown_img);}
@@ -30,9 +31,9 @@
 .bg-img-azure{background-color: var(--blue3_img);}
 .bg-img-yellow{background-color: var(--yellow_img);}
 
-#debug *{
+/* #debug *{
     border: 1px dashed black;
-}
+} */
 
 body{
     font-family: "Noto Sans","Roboto", Arial, Helvetica, sans-serif;
@@ -122,7 +123,7 @@ img{max-width: 100%;}
 .padding-main{padding: 0% 15% 0 15%;}
 .py-06-ud{padding: 0.6rem 0rem;}
 .py-tb-1_7{padding: 1.7rem 0;}
-.py-tb-3{padding: 3rem 0;}
+.py-tb-3{padding: 3rem 0rem;}
 .py-l-1_5{padding: 0 0 0 1.5rem;}
 
 .py-tb-1{padding: 1rem 0rem 1rem 0rem;}
@@ -134,7 +135,6 @@ img{max-width: 100%;}
 
 .border-1-blue{border: 1px solid var(--blue-strong);}
 .border-1-gray{border: 2px solid var(--gray);}
-
 
 .button{
     background-color: var(--blue-strong);
@@ -200,5 +200,9 @@ img{max-width: 100%;}
     .cube_img_center{width: 50%;}
     /* //finish cards universities */
     .dropbox_in_business{gap: 7rem;}
+    .arrow_FAQ{font-size: 1.1rem;}
+    /* //finish main */
 }
+#app_footer{
 
+}
