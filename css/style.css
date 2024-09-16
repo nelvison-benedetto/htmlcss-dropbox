@@ -114,6 +114,8 @@ img{max-width: 100%;}
 .margin-top-6rem{margin-top: 6rem;}
 .m-t-7{margin-top: 7rem;}
 .margin-test{margin: 0 -1rem;}
+.m-b-1{margin-bottom: 1rem;}
+.m-b-1_8{margin-bottom: 1.8rem;}
 .margin-bottom-3rem{margin-bottom: 3rem;}
 .m-b-6{margin-bottom: 6rem;}
 .m--1lr{ margin: 0rem -1.4rem;}
@@ -134,7 +136,7 @@ img{max-width: 100%;}
 .py-lr-1rem{padding: 0rem 1rem;}
 .py-b-2{padding: 0 0 2rem 0;}
 .py-b-1{padding: 0 0 1rem 0;}
-
+.py-b-3{padding: 0 0 3rem 0;}
 
 .border-1-blue{border: 1px solid var(--blue-strong);}
 .border-1-gray{border: 2px solid var(--gray);}
@@ -208,4 +210,6 @@ img{max-width: 100%;}
 }
 #app_footer{
     .footer_list{padding: 4rem 0rem;}
+    .little_footer{justify-self: flex-start}
+    .hr_little_footer{width: 9%; background-color: var(--white);}
 }
