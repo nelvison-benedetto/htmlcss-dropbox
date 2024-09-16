@@ -199,6 +199,7 @@ img{max-width: 100%;}
     .partner_dropbox{
         padding: 1.7rem 1.2rem;
     }
+    .row_operations{margin: 0 -1rem;}
     .card_operations{ padding: 1rem 1rem; }
     .cube{aspect-ratio:1/1;}
     .cube img{width: 60% ;filter: invert(100%) sepia(100%) saturate(100%) hue-rotate(180deg);}
