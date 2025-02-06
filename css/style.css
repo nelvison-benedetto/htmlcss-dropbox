@@ -112,13 +112,14 @@ img{max-width: 100%;}
 .margin-top-4rem{margin-top: 4rem;}
 .m-t-5{margin-top: 5rem;}
 .margin-top-6rem{margin-top: 6rem;}
+.margin-top-7rem{margin-top: 7rem;}
 .m-t-7{margin-top: 7rem;}
 .margin-test{margin: 0 -1rem;}
 .m-b-1{margin-bottom: 1rem;}
 .m-b-1_8{margin-bottom: 1.8rem;}
 .margin-bottom-3rem{margin-bottom: 3rem;}
 .m-b-6{margin-bottom: 6rem;}
-.m--1lr{ margin: 0rem -1.4rem;}
+.m--1lr{ margin: 0rem -1.01rem;}
 
 .py-09ud-08lr{
     padding: 0.9rem 0.8rem;
@@ -129,6 +130,7 @@ img{max-width: 100%;}
 .py-06-ud{padding: 0.6rem 0rem;}
 .py-tb-1_7{padding: 1.7rem 0;}
 .py-tb-3{padding: 3rem 0rem;}
+.py-tb-x{padding: 5.2rem 0rem;}
 .py-l-1_5{padding: 0 0 0 1.5rem;}
 
 .py-tb-1{padding: 1rem 0rem 1rem 0rem;}
@@ -156,6 +158,7 @@ img{max-width: 100%;}
     padding: 0.5rem 1rem;
 }
 .button3{
+    border: 1px white solid;
     color: var(--black);
     background-color: var(--white);
     padding: 0.5rem 1rem;
@@ -182,7 +185,8 @@ img{max-width: 100%;}
         hr{background-color: var(--blue-strong);}
 
     }
-    .radiobutton{border:2px solid var(--blue-strong)}
+    .radiobutton{border:1px solid var(--blue-strong)}
+    .radiobuttongray{border: 1px solid gray;}
     input[type="radio"].radiobutton{
         appearance: none;
         width: 1rem;
@@ -197,7 +201,7 @@ img{max-width: 100%;}
     .hr_little{width: 20%;}
     /* //finish cards */
     .partner_dropbox{
-        padding: 1.7rem 1.2rem;
+        padding: 1.7rem 0.8rem 1.7rem 2.3rem;
     }
     .row_operations{margin: 0 -1rem;}
     .card_operations{ padding: 1rem 1rem; }
